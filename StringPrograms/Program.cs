@@ -6,7 +6,11 @@ namespace StringPrograms
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            "Kiran".PrintReverse();
+            "a,b$c".ReverseWithoutReversingSpecialCharacters();
+            "Ab,c,de!$".ReverseWithoutReversingSpecialCharacters();
+            "KKiran".RemoveDuplicates();
+            Console.ReadLine();
         }
     }
 }
